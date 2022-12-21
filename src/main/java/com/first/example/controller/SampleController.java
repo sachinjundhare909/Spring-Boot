@@ -13,6 +13,6 @@ public class SampleController {
 	
 	@GetMapping("/get1")
 	public String getMessage1() {
-		return "Hello Sachin1";
+		return "Hello World";
 	}
 }
