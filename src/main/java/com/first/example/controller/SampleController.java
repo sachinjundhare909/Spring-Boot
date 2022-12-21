@@ -10,4 +10,9 @@ public class SampleController {
 	public String getMessage() {
 		return "Hello Sachin";
 	}
+	
+	@GetMapping("/get1")
+	public String getMessage1() {
+		return "Hello Sachin1";
+	}
 }
